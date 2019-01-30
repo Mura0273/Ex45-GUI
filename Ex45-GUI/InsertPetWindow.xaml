@@ -1,0 +1,23 @@
+﻿<Window x:Class="Ex45_GUI.InsertPetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex45_GUI"
+        mc:Ignorable="d"
+        Title="InsertPetWindow" Height="451.596" Width="578.191">
+    <Grid Margin="0,0,2,-2">
+        <Label Content="Pet Name" HorizontalAlignment="Left" Margin="43,34,0,0" VerticalAlignment="Top" Height="39" Width="118" FontSize="14"/>
+        <Label Content="Pet Type" HorizontalAlignment="Left" Margin="43,103,0,0" VerticalAlignment="Top" Height="39" Width="118" FontSize="14"/>
+        <Label Content="Pet Breed" HorizontalAlignment="Left" Margin="43,189,0,0" VerticalAlignment="Top" Height="39" Width="118" FontSize="14"/>
+        <Label Content="Pet DOB" HorizontalAlignment="Left" Margin="43,269,0,0" VerticalAlignment="Top" Height="39" Width="118" FontSize="14"/>
+        <Label Content="Pet weoght" HorizontalAlignment="Left" Margin="43,351,0,0" VerticalAlignment="Top" Height="39" Width="118" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="253,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="182"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="253,109,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="182"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="253,189,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="182" RenderTransformOrigin="0.896,0.074"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="253,269,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="182"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="253,351,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="182"/>
+        <Button Content="Submit Pet" HorizontalAlignment="Left" Margin="467,375,0,0" VerticalAlignment="Top" Width="91" Height="38" Click="Button_Click" FontSize="14"/>
+
+    </Grid>
+</Window>

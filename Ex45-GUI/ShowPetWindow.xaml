@@ -1,0 +1,33 @@
+﻿<Window x:Class="Ex45_GUI.ShowPetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex45_GUI"
+        mc:Ignorable="d"
+        Title="ShowPetWindow" Height="450" Width="800"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="PetName" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="Pet Type" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBox Grid.Column="3" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="Pet Breed" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBox Grid.Column="4" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="Pet DOB" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBox Grid.Column="5" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="Pet Weight" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" Text="PetName" VerticalAlignment="Top" Width="132" TextChanged="TextBox_TextChanged" FontSize="18"/>
+    </Grid>
+</Window>
